@@ -1,0 +1,53 @@
+.idea/
+.sonar/
+.settings/
+.project
+.DS_Store
+.vscode/**
+.vs
+.sonarlint
+node_modules/
+deploy/
+dist/
+lib/**
+credentials.json
+config/env.*.js
+coverage/
+npm-debug.log
+fortify.zip
+upload.zip
+buildInfo.json
+!.gitkeep
+
+# local files
+credentials.json
+config/env.*.js
+.env
+src/sample-logs/*
+
+# generated
+doc/generated/
+docs/generated/
+
+# logs
+logs/*.log*
+npm-debug.log
+
+# reports
+test-report.xml
+coverage
+.scannerwork
+*.pyc
+
+!.vscode/launch.json
+.build
+
+#terraform
+parameter_store.json
+**/.terraform/environment
+**/.terraform/plugins/darwin_amd64/
+**/.terraform/plugins/linux_amd64/
+**/.terraform/plugins/registry.terraform.io/
+
+#code specific
+backend/src/sample-logs/*
