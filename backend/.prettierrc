@@ -1,0 +1,22 @@
+{
+    "printWidth": 120,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "trailingComma": "all",
+    "jsxBracketSameLine": true,
+    "arrowParens": "always",
+    "overrides": [
+      {
+        "files": "*.md",
+        "options": {
+          "parser": "markdown",
+          "proseWrap": "always",
+          "printWidth": 80,
+          "tabWidth": 2
+        }
+      }
+    ]
+  }
