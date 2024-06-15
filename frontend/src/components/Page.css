@@ -1,0 +1,34 @@
+.page {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page .Header .ant-menu {
+  background-color: transparent;
+  border-bottom: none;
+  color: white;
+}
+
+.page .Header .ant-menu-item,
+.page .Header .ant-menu a,
+.page
+  .Header
+  .ant-menu-horizontal:not(.ant-menu-dark)
+  > .ant-menu-submenu-selected {
+  color: white;
+}
+
+.page
+  .Header
+  .ant-menu-horizontal:not(.ant-menu-dark)
+  > .ant-menu-item-selected::after {
+  border-color: white;
+}
+
+.page .page__content {
+  flex-grow: 1;
+  background-color: #f0f0f0;
+}
