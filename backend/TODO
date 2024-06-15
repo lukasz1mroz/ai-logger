@@ -1,0 +1,7 @@
+- [FE] Update UI filtering options
+- [FE] Integrate UI options with LLM call
+- [FE] Update result presentation
+- [KT] Get feedback from potential end users
+- [KT] Compare analyzing JSON properties vs regexes from strings
+- [BE] Integrate dev portal / Confluence API 
+- [BE] Add SD: components, traffic, scaling, security
