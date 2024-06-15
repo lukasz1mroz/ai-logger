@@ -1,0 +1,7 @@
+node_modules
+build
+sdlc
+**/*.d.ts
+
+# modified by `yarn test` => ignore in prettier and eslint
+tsconfig.json
