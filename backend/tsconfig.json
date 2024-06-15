@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node21/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+  },
+  "exclude": [
+    "src/server.ts"
+  ]
+}
