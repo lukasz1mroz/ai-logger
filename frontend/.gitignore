@@ -32,7 +32,8 @@ sdlc/**/.build
 react-app-env.d.ts
 .eslintcache
 
-# use only yarn.lock
+# project specific
 package-lock.json
+yarn.lock
 
 .env

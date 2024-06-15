@@ -51,3 +51,4 @@ parameter_store.json
 
 #code specific
 backend/src/sample-logs/*
+package-lock.json
